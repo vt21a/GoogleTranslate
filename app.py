@@ -15,4 +15,3 @@ if text:
     translator = Translator()
     translation = translator.translate(text, dest=language)
     st.write(f'Преведеният текст на {language}: {translation.text}')
-    st.write(f'Преведеният текст на {language}: {translation.text}')
